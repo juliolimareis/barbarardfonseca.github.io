@@ -1,3 +1,4 @@
+/*como inserir linha inferior: border-bottom: #024059 solid 1px;
 /*---------------------------------------------------------------------
     File Name: style.css
 ---------------------------------------------------------------------*/
@@ -1802,6 +1803,7 @@ margin-top: 50px;
     border-radius: 25px;
     transition: ease-in all 0.5s;
 }
+
 
 /** end about section **/
 
