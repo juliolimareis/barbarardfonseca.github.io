@@ -1,0 +1,37 @@
+<!--testando-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>PyScript Hello World</title>
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+  </head>
+
+  <body>
+    Hello world! <br>
+    This is the current date and time, as computed by Python:
+    <div id = "grafico" style ="width: '00%; height: 100%"></div>
+    <py-script output = "grafico">
+    import matplotlib.pyplot as plt
+from datetime import datetime
+now = datetime.now()
+now.strftime("%m/%d/%Y, %H:%M:%S")
+
+labels = ["w","x","y","z"]
+sizes = [5, 10, 15, 20]
+figl, axl = plt.subplots()
+axl.pie(sizes, labels = labels)
+for x in a:
+    print(x)
+
+    
+    
+    </py-script>
+  </body>
+</html>
