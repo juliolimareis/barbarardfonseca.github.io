@@ -35,6 +35,23 @@
 /*---------------------------------------------------------------------
     skeleton
 ---------------------------------------------------------------------*/
+.container2{
+	width:400px;
+	margin:auto;
+}
+
+.container2 img{
+width: 100%	
+}
+
+.baixoEsquerda{
+	position: absolute;
+	bottom:0;
+	left:0;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px;
+}
 
 * {
 	box-sizing: border-box !important;
