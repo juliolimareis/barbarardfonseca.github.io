@@ -20,3 +20,31 @@
     left: 0;
     top:0px;
 }
+
+.main-cover{
+    background-image: url("../images/capa_index.png");
+    /* height: 100%;
+    width: 100%; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* position: relative; */
+}
+
+.border{
+    border:3px solid red;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read /
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  
+    / Set a specific height /
+    height: 50%;
+  
+    / Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
