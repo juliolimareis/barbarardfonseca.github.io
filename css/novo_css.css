@@ -48,3 +48,39 @@
     background-size: cover;
     position: relative;
   }
+
+  .underline{
+    text-decoration: underline #011826 1px;
+  }
+
+  .title-color{
+    color: #011826;
+  }
+
+  .icon-size{
+    height: 40px;
+    width: 35px;
+  }
+
+  .border-size{
+    height: 120px;
+    width: 120px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #011826;
+    border-radius: 25px;
+    margin:auto;
+
+  }
+.background{
+  background-color: #011826 ;
+}
+
+.bulma{
+  height: 40px;
+  width: 200px;
+}
+
+.margin-center{
+  margin:auto;
+}
