@@ -1,0 +1,262 @@
+/*#bloco01, #bloco02, #bloco03{
+    position:relative;
+    /*width:300px;
+    height:150px;
+    text-align: center;
+    color: #ffff;
+}*/
+
+.button-config{
+    position:absolute;
+    text-align: center;
+    left: 50%;
+    top:50%;
+    z-index:1;
+    transform:translate(-50%,-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+.button-config:hover{
+  border-color:white;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.button-grid{
+  position:absolute;
+  text-align: center;
+  left: 50%;
+  top:50%;
+  z-index:1;
+  transform:translate(-50%,-50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 1px;
+border-style: solid;
+}
+
+.button-grid:hover{
+border-color: white;
+color: white;
+border-width: 1px;
+border-style: solid;
+
+}
+
+.bloco02{
+    position:relative;
+    left: 0;
+    top:0px;
+}
+
+.main-cover{
+    background-image: url("../images/capa_index.png");
+    /* height: 100%;
+    width: 100%; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* position: relative; */
+}
+
+.borderr{
+    border:3px solid red;
+}
+.borderg{
+  border:3px solid green;
+}
+.borderb{
+  border:3px solid blue;
+}
+.bordero{
+  border:3px solid orange;
+}
+.border-bottom{
+  border-bottom: 2px solid #011826 ;
+}
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read /
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  
+    / Set a specific height /
+    height: 50%;
+  
+    / Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .underline{
+    text-decoration: underline #011826 1px;
+  }
+
+  .title-color{
+    color: #011826;
+  }
+
+  .icon-size{
+    height: 40px;
+    width: 35px;
+  }
+
+  .border-size{
+    height: 120px;
+    width: 120px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #011826;
+    border-radius: 25px;
+    margin:auto;
+
+  }
+.background{
+  background-color: #011826 ;
+}
+.background:hover{
+  background-color: #011826 ;
+}
+
+.button-hover:hover{
+  background-color: black
+}
+.bulma{
+  height: 40px;
+  width: 200px;
+}
+
+.margin-center{
+  margin:auto;
+}
+
+.title-grid{
+  position:absolute;
+  text-align: center;
+  left: 50%;
+  top:20%;
+  z-index:1;
+  transform:translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+}
+
+
+
+
+.contr .card-grid .contn{
+  visibility: hidden; 
+  position:absolute;
+  z-index:1;
+  transform:translate(-50%,-50%);
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.contr:hover .card-grid:hover .contn {
+  visibility: visible; 
+  position:absolute;
+  left: 50%;
+  top:50%;
+  z-index:1;
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.491);
+  width:105%;
+  height:115%;
+} 
+
+
+.contn{
+  /* visibility: visible; 
+  border:3px solid  rgb(0, 255, 13);
+  position:absolute;
+  z-index:1;
+  transform:translate(-50%,-50%);
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0); */
+  position:absolute;
+  text-align: center;
+  left: 50%;
+  top:50%;
+  z-index:1;
+  transform:translate(-50%,-50%);
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  width:90%;
+  height:90%;
+}
+
+.contr .card-grid .contn:hover{
+  /* visibility: visible; 
+  border:3px solid  rgb(0, 255, 13);
+  position:absolute;
+  z-index:1;
+  transform:translate(-50%,-50%);
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0); */
+  position:absolute;
+  text-align: center;
+  left: 50%;
+  top:50%;
+  z-index:1;
+  transform:translate(-50%,-50%);
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  width:40%;
+  height:40%;
+}
+
+.title-center{
+  position:absolute;
+  text-align: center;
+  left: 50%;
+  top:50%;
+  z-index:1;
+  transform:translate(-50%,-50%);
+  color: rgb(255, 255, 255);
+  background-color: #01182600;
+  border-color: rgba(255, 255, 255, 0);
+  border-width: 1px;
+  border-style: solid;
+  font-size:200%
+}
+
+.button-dash{
+  text-align: center;
+  z-index:1;
+  color: white;
+  background-color: #EBB922;
+  border-width: 1px;
+border-style: solid;
+border-color:#cf9b00
+}
+
+.button-dash:hover{
+  text-align: center;
+  z-index:1;
+  color: white;
+  background-color: #EBB922;
+  border-width: 1px;
+border-style: solid;
+border-radius: 20px;
+border-color:#cf9b00
+}
+
+.incomplete-img{
+  /* visibility: visible; 
+  border:3px solid  rgb(0, 255, 13);
+  position:absolute;
+  z-index:1;
+  transform:translate(-50%,-50%);
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0); */
+  position:absolute;
+  text-align: center;
+  left: 50%;
+  top:75%;
+  transform:translate(-50%,-50%);
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
