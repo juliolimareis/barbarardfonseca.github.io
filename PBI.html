@@ -1,403 +1,253 @@
 <!DOCTYPE html>
 <html>
-  <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Portfólio de Power BI</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-        <link rel="stylesheet" href="style.css">
-        <!--navbar-->
-            <nav class="navbar is-black" role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
-                    <a class="navbar-item" href="https://barbarardfonseca.github.io/index.html">
-                        <img src="images/brancotr.png">
-                    </a>
-                
-                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                    </a>
-                </div>
-                <link rel="icon" href="icon\golden tr.png" type="image/gif" />
 
-                <div id="navbarBasicExample" class="navbar-menu is-active">
-                    <div class="navbar-start">
-                        <a href = "https://barbarardfonseca.github.io/index.html" class="navbar-item">
-                        Home
-                        </a>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfólio de Power BI</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script type="module" defer src="./js/pbi.js"></script>
+	
+</head>
 
-                        <a href = "#reports" class="navbar-item">
-                            Outros Relatórios
-                        </a>
+<body>
+	<!--navbar-->
+		<nav class="navbar is-black" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="https://barbarardfonseca.github.io/index.html">
+					<img src="images/brancotr.png">
+				</a>
 
-                        <a href = "#bi_tools" class="navbar-item">
-                            Ferramentas de BI
-                        </a>
-                        <a href = "#social_media" class="navbar-item">
-                            Redes sociais
-                        </a>
-                    </div>
-                </div>
-            </nav>
-        <!-- end navbar-->
-    </head>
-    <body>
-        <!--imagem capa-->
-            <section class="hero is-large is-success">
-                <img src="images/img_pbi.png" alt="Placeholder image">
-          </section>
-        <!--fim imagem capa-->
-                <!--titulo capa-->
-                <div class="container is-fluid mt-6 has-text-centered title-center">
-                        <h1 class="title  title-center"><p>Portfólio de Power BI</p></h1>
-                <h6 class="subtitle is-6"></h6> 
-                </div>
-            <!--fim titulo capa-->
-        <!--titulo skills-->
-            <div class="container is-fluid mt-6 has-text-centered">
-                <div class="notification is-white"> 
-                    <h3 class="title is-3 underline"><p class = "title-color">Habilidades Utilizadas</p></h3>
-            <h6 class="subtitle is-6"></h6> 
-                </div>
-            </div>
-        <!--fim titulo skills-->
+				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+			<link rel="icon" href="icon\golden tr.png" type="image/gif" />
 
-        <!--skills-->
-            <div class="columns is-desktop is-vcentered">
-                <div class="column has-text-centered mx-6">
-                    <div class = "border-size py-5">
-                        <img class = "icon-size" src="icon\dax2.png">
-                        <br>
-                        DAX
-                    </div>
-                </div>
-                <div class="column has-text-centered mx-6">
-                    <div class = "border-size py-5">
-                        <img class = "icon-size" src="icon\m.png">
-                        <br>
-                        Linguagem M
-                    </div>
-                </div>
-                <div class="column has-text-centered mx-6">
-                    <div class = "border-size py-4">
-                        <img class = "icon-size" src="icon\dataviz.png">
-                        <br>
-                        Visualização de Dados    
-                    </div>
-                </div>
-                <div class="column has-text-centered mx-6">
-                    <div class = "border-size py-4">
-                        <img class = "icon-size" src="icon\BI.png">
-                        <br>
-                        Inteligência de Negócios
-                    </div>
-                </div>
-                <div class="column has-text-centered mx-6">
-                    <div class = "border-size py-5">
-                        <img class = "icon-size" src="icon\etl2.png">
-                        <br>
-                        ETL
-                    </div>
-                </div>
-            </div>
-        <!--fim skills-->
-        <!--container titulo e fundo cinza-->
-            <div class="container is-fluid mt-6">
-                <!--titulo projetos-->
-                    <div class="has-text-centered is-light">
-                        <div class="notification is-light"> 
-                            <h3 class="title is-3 underline">
-                                <p class = "title-color">Projetos</p>
-                            </h3>
-                            <h6 class="subtitle is-6">Veja meus principais projetos desenvolvidos em Power BI</h6> 
+			<div id="navbarBasicExample" class="navbar-menu is-active">
+				<div class="navbar-start">
+					<a href="https://barbarardfonseca.github.io/index.html" class="navbar-item">
+						Home
+					</a>
+
+					<a href="#reports" class="navbar-item">
+						Outros Relatórios
+					</a>
+
+					<a href="#bi_tools" class="navbar-item">
+						Ferramentas de BI
+					</a>
+					<a href="#social_media" class="navbar-item">
+						Redes sociais
+					</a>
+				</div>
+			</div>
+		</nav>
+	<!-- end navbar-->
+
+	<!--imagem capa-->
+		<section class="hero is-large is-success">
+			<img src="images/img_pbi.png" alt="Placeholder image">
+		</section>
+	<!--fim imagem capa-->
+	<!--titulo capa-->
+		<div class="container is-fluid mt-6 has-text-centered title-center">
+			<h1 class="title  title-center">
+				<p>Portfólio de Power BI</p>
+			</h1>
+			<h6 class="subtitle is-6"></h6>
+		</div>
+	<!--fim titulo capa-->
+
+	<!--titulo skills-->
+		<div class="container is-fluid mt-6 has-text-centered">
+			<div class="notification is-white">
+				<h3 class="title is-3 underline">
+					<p class="title-color">Habilidades Utilizadas</p>
+				</h3>
+				<h6 class="subtitle is-6"></h6>
+			</div>
+		</div>
+	<!--fim titulo skills-->
+
+	<!--skills-->
+		<div id="cards-skills" class="columns is-desktop is-vcentered">
+			<!-- JS completa os cards -->
+		</div>
+	<!--fim skills-->
+
+	<!--container titulo e fundo cinza-->
+	<div id="dashboardsProjects" class="container is-fluid mt-6">
+		<!--titulo projetos-->
+		<div class="has-text-centered is-light">
+			<div class="notification is-light">
+				<h3 class="title is-3 underline">
+					<p class="title-color">Projetos</p>
+				</h3>
+				<h6 class="subtitle is-6">Veja meus principais projetos desenvolvidos em Power BI</h6>
+			</div>
+		</div>
+		<!--fim titulo projetos-->
+	</div>
+	<!--end container titulo e fundo cinza-->
+
+	<!--container titulo e fundo cinza-->
+	<div id="reports" class="container is-fluid mt-6">
+		<!--titulo projetos-->
+		<div class="has-text-centered notification">
+			<div class="notification">
+				<h3 class="title is-3 underline">
+					<p class="title-color">Outros Dashboards</p>
+				</h3>
+				<h6 class="subtitle is-6"></h6>
+			</div>
+
+			<!--fim titulo projetos-->
+			<!--grid imagens-->
+			<div class="tile is-ancestor is-light">
+				<div class="tile is-vertical is-4">
+					<div class="tile">
+						<div class="tile is-parent is-vertical">
+							<article class="tile is-child box background">
+								<div class="content image ">
+									<div class="contr ">
+										<div class="card-grid ">
+											<img src="images\DashNPS.png">
+											<div class="contn ">
+												<h3 class="title-grid is-size-4 has-text-white">Net Promoter Score</h3>
+												<a class="button button-grid"
+													href="https://app.powerbi.com/view?r=eyJrIjoiOWRjN2E4MDctOGU5Zi00YjAxLTgxYWItY2Q4ZDg2OWU1YWU3IiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9&pageName=ReportSection"
+													target="_blank">Acessar o Relatório</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<!-- 
+								<article class="tile is-child box background">
+                  <div class="content image ">
+                    <div class = "contr ">
+                    	<div class = "card-grid ">
+                        <img src="images\metabase_dash3.PNG">
+                        <div class = "contn ">
+                          <h3 class="title-grid is-size-4 has-text-white" >Nome do Dashboard</h3>
+                          <a  class="button button-grid" href="">Acessar o Relatório</a>
                         </div>
+                      </div>
                     </div>
-                <!--fim titulo projetos-->  
-                <!--Dash 1-->
-                    <div class="notification is-light">
-                        <div class="columns is-desktop">
-                            <div class="column">
-                                    <h1 class="title has-text-centered">Dashboard Pokémon</h1>
-                                    <h2 class="subtitle has-text-centered">Desafio DataB</h2>
-                                    <p class="has-text-justified"> Dashboard de análise dos principais status de pokémons. O objetivo desse dashboard é trazer o detalhamento de informações de cada pokémon, como status, status especiais, tipo, evoluções e suas variações. O modelo desse dashboard fugiu do padrão de análise de dados comum, tendo como principal foco a identidade visual que se assemelhe ao padrão de Pokémon e a interação com o dashboard, de modo que o usuário tenha a liberdade de explorar e saber as principais informações sobre seus pokémons favoritos. </p>
-                                    <br> <strong>Recursos Utilizados:</strong> Dax 
-                                    <br> <strong>Criação:</strong> 10/2022
-                                    <br> <a class="button my-4 button-dash" href="https://app.powerbi.com/view?r=eyJrIjoiNzgzNzg5ODMtOGQ2Ni00N2U5LTk3YWUtMzgyNWU5OTdiMjExIiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9" target="_blank"><p class = "my-4">Ver no Power BI</p></a> 
-                                </div>
-                            <div class="column">
-                                <figure class ="image is-5by3">
-                                    <iframe class="has-ratio" title="dash pokemon" src="https://app.powerbi.com/view?r=eyJrIjoiNzgzNzg5ODMtOGQ2Ni00N2U5LTk3YWUtMzgyNWU5OTdiMjExIiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9" frameborder="0" allowFullScreen="true"></iframe>                     
-                                </figure>
-                            </div>
-                        </div>  
-                    </div>
-                <!--end Dash 1-->
-            </div>
-        <!--end container titulo e fundo cinza-->
-        
-        <!--Dash 2-->
-        <div class="container is-fluid mt-6">
-            <div class="notification is-white is-centered">
-                <div class="columns is-desktop">
-                    <div class="column">
-                        <figure class ="image is-5by3">
-                            <iframe class="has-ratio" title="dash pokemon" src="https://app.powerbi.com/view?r=eyJrIjoiMmMxNjg1NzUtZTE2Yi00MzVhLTgwNmItMjcxNDA2YmNjODZiIiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9" frameborder="0" allowFullScreen="true"></iframe>                     
-                        </figure>
-                    </div>
-                    <div class="column">
-                            <h1 class="title has-text-centered">Dashboard Copa do Mundo 2022</h1>
-                            <h2 class="subtitle has-text-centered">Desafio DataB</h2>
-                            <p class="has-text-justified"> Análise do histórico de Copas do Mundo(1930 - 2018). Esse dashboard é uma análise geral do histórico das Copas do Mundo, nele contém análises de quantidade de gols, melhores seleções e jogadores, média de gols por seleção, melhores e piores seleções baseadas em pontos e quantidade de gols, além das maiores audiências por estádio nas finais e o histórico do Brasil no ranking mundial. Tudo isso permite a análise e uma visão de como a nossa seleção está em comparação com os outros países e para acrescentar também é exibida a bandeira do país-sede e o cartaz promocional da copa no respectivo ano.</p>  
-                            <br> <strong>Recursos Utilizados:</strong>  
-                            <br> <strong>Criação:</strong> 09/2022
-                            <br> <a class="button my-4 button-dash" href="https://app.powerbi.com/view?r=eyJrIjoiMmMxNjg1NzUtZTE2Yi00MzVhLTgwNmItMjcxNDA2YmNjODZiIiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9" target="_blank"><p class = "my-4">Ver no Power BI</p></a> 
-                        </div>    
-                </div>
-            </div>
-        </div>
-        <!--end Dash 2-->
-
-        <!--Dash 3-->
-        <div class="notification is-light">
-            <div class="columns is-desktop">
-                <div class="column">
-                        <h1 class="title has-text-centered">Dashboard Copa do Mundo 2022</h1>
-                        <h2 class="subtitle has-text-centered">Desafio DataB</h2>
-                        <p class="has-text-justified"> Análise do histórico de Copas do Mundo(1930 - 2018). Esse dashboard contém as análises de audiência, países participantes, países campeões entre outras análises que dão uma visão geral dos países, podendo verificar se há padrões no torneio, melhores seleções ou jogadores. No dashboard também são exibidas as bandeiras dos países a fim de gerar a identificação com o país de origem e promover o conhecimento de outras bandeiras.</p> 
-                        <br> <strong>Recursos Utilizados:</strong> Dax 
-                        <br> <strong>Criação:</strong> 10/2022
-                        <br> <a class="button my-4 button-dash" href="https://app.powerbi.com/view?r=eyJrIjoiNzVjNWI5ZDMtMzY5Yi00OTJkLWFkOTItOWFlMjFjZGYyOWQ2IiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9&pageName=ReportSection75c6c6009dd3eb0dd415" target="_blank"><p class = "my-4">Ver no Power BI</p></a> 
-                    </div>
-                <div class="column">
-                    <figure class ="image is-5by3">
-                        <iframe class="has-ratio" title="dash pokemon" src="https://app.powerbi.com/view?r=eyJrIjoiNzVjNWI5ZDMtMzY5Yi00OTJkLWFkOTItOWFlMjFjZGYyOWQ2IiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9&pageName=ReportSection75c6c6009dd3eb0dd415" frameborder="0" allowFullScreen="true"></iframe>                     
-                    </figure>
-                </div>
-            </div>  
-        </div>
-    <!--end Dash 3-->
-
-            <!--Dash 4-->
-            <div class="notification is-white">
-                <div class="columns is-desktop">                   
-                    <div class="column">
-                        <figure class ="image is-5by3">
-                            <iframe class="has-ratio" title="dDashboard Clientes" src="https://app.powerbi.com/view?r=eyJrIjoiZWYxNTZmMDMtYzk2ZS00M2E4LTljZDQtY2QxMWUxOWE2NjZlIiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>                     
-                        </figure>
-                    </div>
-                    <div class="column">
-                        <h1 class="title has-text-centered">Dashboard de Clientes</h1>
-                        <h2 class="subtitle has-text-centered"></h2>
-                        <p class="has-text-justified"> Dashboard de Análise de Performance de Clientes com dados fictícios.
-                            As análises trazem informações de receita, ticket médio e outros insights que auxiliam na tomada de decisão do negócio e facilitam a visualização de clientes fiéis ou que precisam ser desenvolvidos como exemplificado na Matriz de Ação.</p> 
-                        <br> <strong>Recursos Utilizados:</strong> 
-                        <br> <strong>Criação:</strong> 08/2022
-                        <br> <a class="button my-4 button-dash" href="https://app.powerbi.com/view?r=eyJrIjoiZWYxNTZmMDMtYzk2ZS00M2E4LTljZDQtY2QxMWUxOWE2NjZlIiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9&pageName=ReportSection" target="_blank"><p class = "my-4">Ver no Power BI</p></a> 
-                    </div>
-                </div>  
-            </div>
-        <!--end Dash 4-->
-
-                <!--Dash 5-->
-                <div class="notification is-light">
-                    <div class="columns is-desktop">
-                        <div class="column">
-                                <h1 class="title has-text-centered">Report Colaboradores</h1>
-                                <h2 class="subtitle has-text-centered"></h2>
-                                 <p class="has-text-justified"> <!--Refazer capa e inserir descrição do dashboard --></p> 
-                                <br> <strong>Recursos Utilizados:</strong> 
-                                <br> <strong>Criação:</strong> 03/2022
-                                <br> <a class="button my-4 button-dash" href="https://app.powerbi.com/view?r=eyJrIjoiYWUxNTZjNGItOWFhYi00MDFhLWJmNTYtNGVlZDVjZjRiZDk4IiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9&pageName=ReportSection90fe854a9eb8d4888de0" target="_blank"><p class = "my-4">Ver no Power BI</p></a> 
-                            </div>
-                        <div class="column">
-                            <figure class ="image is-5by3">
-                                <iframe class="has-ratio" title="Report Colaboradores" src="https://app.powerbi.com/view?r=eyJrIjoiYWUxNTZjNGItOWFhYi00MDFhLWJmNTYtNGVlZDVjZjRiZDk4IiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9&pageName=ReportSection90fe854a9eb8d4888de0" frameborder="0" allowFullScreen="true"></iframe>                     
-                            </figure>
+                  </div>
+                </article>
+							-->
+						</div>
+					</div>
+				</div>
+				<div class="tile is-vertical is-4">
+					<div class="tile">
+						<div class="tile is-parent is-vertical margin-center">
+							<article class="tile is-child box background">
+								<div class="content image ">
+									<div class="contr ">
+										<div class="card-grid ">
+											<img src="images\combustiveis.png">
+											<div class="contn ">
+												<h3 class="title-grid is-size-4 has-text-white">Análise de Preços de
+													Combustíveis</h3>
+												<a class="button button-grid"
+													href="https://app.powerbi.com/view?r=eyJrIjoiNjdhOTI5Y2YtMDNmOS00ZmYxLTkwZDAtZjUzZTU3MzI5YjcwIiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9&pageName=ReportSection"
+													target="_blank">Acessar o Relatório</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<!--
+								<article class="tile is-child box background">
+                  <div class="content image ">
+                    <div class = "contr ">
+                      <div class = "card-grid ">
+                        <img src="images\metabase_dash3.PNG">
+                        <div class = "contn ">
+                          <h3 class="title-grid is-size-4 has-text-white" >Nome do Dashboard</h3>
+                          <a  class="button button-grid" href="">Acessar o Relatório</a>
                         </div>
-                    </div>  
-                </div>
-            <!--end Dash 5-->
+                      </div>
+                    </div>
+                  </div>
+                </article>
+							-->
+						</div>
+					</div>
+				</div>
+				<div class="tile is-vertical is-4">
+					<div class="tile">
+						<div class="tile is-parent is-vertical">
+							<article class="tile is-child box background">
+								<div class="content image ">
+									<div class="contr ">
+										<div class="card-grid ">
+											<img src="images\AnáliseRH.png">
+											<div class="contn ">
+												<h3 class="title-grid is-size-4 has-text-white">Dashboard de RH</h3>
+												<a class="button button-grid"
+													href="https://app.powerbi.com/view?r=eyJrIjoiMzdiMGE5M2YtNDgwYi00MTlhLTlmODktMmViMzc2NDBkMjhjIiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9&pageName=ReportSectionf7bb13ef24198e7a20d6"
+													target="_blank">Acessar o Relatório</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<!--
+								<article class="tile is-child box background">
+                  <div class="content image ">
+                    <div class = "contr ">
+                      <div class = "card-grid ">
+                      	<img src="images\metabase_dash3.PNG">
+                        <div class = "contn ">
+                        	<h3 class="title-grid is-size-4 has-text-white" >Nome do Dashboard</h3>
+                        	<a  class="button button-grid" href="">Acessar o Relatório</a>
+                      	</div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+							-->
 
-       <!--container titulo e fundo cinza-->
-            <div id ="reports" class="container is-fluid mt-6">
-                <!--titulo projetos-->
-                    <div class="has-text-centered notification">
-                        <div class="notification"> 
-                            <h3 class="title is-3 underline">
-                                <p class = "title-color">Outros Dashboards</p>
-                            </h3>
-                            <h6 class="subtitle is-6"></h6> 
-                        </div>
-                    
-                <!--fim titulo projetos-->  
-                <!--grid imagens-->
-                    <div class="tile is-ancestor is-light">
-                        <div class="tile is-vertical is-4">
-                            <div class="tile">
-                                <div class="tile is-parent is-vertical">
-                                    <article class="tile is-child box background">
-                                        <div class="content image ">
-                                            <div class = "contr ">
-                                                <div class = "card-grid ">
-                                                    <img src="images\DashNPS.png">
-                                                    <div class = "contn ">
-                                                        <h3 class="title-grid is-size-4 has-text-white" >Net Promoter Score</h3>
-                                                        <a  class="button button-grid" href="https://app.powerbi.com/view?r=eyJrIjoiOWRjN2E4MDctOGU5Zi00YjAxLTgxYWItY2Q4ZDg2OWU1YWU3IiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9&pageName=ReportSection" target = "_blank">Acessar o Relatório</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <!-- <article class="tile is-child box background">
-                                        <div class="content image ">
-                                            <div class = "contr ">
-                                                <div class = "card-grid ">
-                                                    <img src="images\metabase_dash3.PNG">
-                                                    <div class = "contn ">
-                                                        <h3 class="title-grid is-size-4 has-text-white" >Nome do Dashboard</h3>
-                                                        <a  class="button button-grid" href="">Acessar o Relatório</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article> -->
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="tile is-vertical is-4">
-                            <div class="tile">
-                                <div class="tile is-parent is-vertical margin-center">
-                                    <article class="tile is-child box background">
-                                        <div class="content image ">
-                                            <div class = "contr ">
-                                                <div class = "card-grid ">
-                                                    <img src="images\combustiveis.png">
-                                                    <div class = "contn ">
-                                                        <h3 class="title-grid is-size-4 has-text-white" >Análise de Preços de Combustíveis</h3>
-                                                        <a  class="button button-grid" href="https://app.powerbi.com/view?r=eyJrIjoiNjdhOTI5Y2YtMDNmOS00ZmYxLTkwZDAtZjUzZTU3MzI5YjcwIiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9&pageName=ReportSection" target = "_blank">Acessar o Relatório</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article> 
-                                    <!-- <article class="tile is-child box background">
-                                        <div class="content image ">
-                                            <div class = "contr ">
-                                                <div class = "card-grid ">
-                                                    <img src="images\metabase_dash3.PNG">
-                                                    <div class = "contn ">
-                                                        <h3 class="title-grid is-size-4 has-text-white" >Nome do Dashboard</h3>
-                                                        <a  class="button button-grid" href="">Acessar o Relatório</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article> -->
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="tile is-vertical is-4">
-                            <div class="tile">
-                                <div class="tile is-parent is-vertical">
-                                    <article class="tile is-child box background">
-                                        <div class="content image ">
-                                            <div class = "contr ">
-                                                <div class = "card-grid ">
-                                                    <img src="images\AnáliseRH.png">
-                                                    <div class = "contn ">
-                                                        <h3 class="title-grid is-size-4 has-text-white" >Dashboard de RH</h3>
-                                                        <a  class="button button-grid" href="https://app.powerbi.com/view?r=eyJrIjoiMzdiMGE5M2YtNDgwYi00MTlhLTlmODktMmViMzc2NDBkMjhjIiwidCI6ImM0YzEwNjgzLWRkYzgtNDM5My1hN2U1LWMyZWUwZjQzM2Q2MSJ9&pageName=ReportSectionf7bb13ef24198e7a20d6" target = "_blank">Acessar o Relatório</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <!-- <article class="tile is-child box background">
-                                        <div class="content image ">
-                                            <div class = "contr ">
-                                                <div class = "card-grid ">
-                                                    <img src="images\metabase_dash3.PNG">
-                                                    <div class = "contn ">
-                                                        <h3 class="title-grid is-size-4 has-text-white" >Nome do Dashboard</h3>
-                                                        <a  class="button button-grid" href="">Acessar o Relatório</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article> -->
-                            
-                                </div>
-                            </div> 
-                        </div>
-                    </div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-                <!--end grid imagens-->
-            </div>
-        </div>
-        <!--end container titulo e fundo cinza-->
-        
-        <!--Outras Ferramentas de BI-->
-        <div id ="bi_tools" class="container is-fluid my-6">
-            <div class="notification is-white">
-                <h1 class="title has-text-centered">Ferramentas de BI</h1>
-                <h2 class="subtitle has-text-centered">Relatórios feitos em outras ferramentas de Business Intelligence</h2>
-                <div class="columns is-desktop">
-                    <div class="column mx-5">
-                        <div class="card bloco02">
-                            <div class="card-image">
-                              <figure class="image is-2by1">
-                                <img src="images\img_pbi.png" alt="Placeholder image">
-                                <a  class="button button-config" href="https://barbarardfonseca.github.io/PBI.html">Power BI</a>
-                              </figure>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="column mx-5">
-                        <div class="card bloco02">
-                            <div class="card-image">
-                              <figure class="image is-2by1">
-                                <img src="images\img_pbi.png" alt="Placeholder image">
-                                <a  class="button button-config" href="https://barbarardfonseca.github.io/under_construction.html">Metabase</a>
-                              </figure>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="column mx-5">
-                        <div class="card bloco02">
-                            <div class="card-image">
-                              <figure class="image is-2by1 bloco02">
-                                <img src="images\img_pbi.png" alt="Placeholder image">
-                                <a  class="button button-config" href="https://barbarardfonseca.github.io/under_construction.html">Tableau</a>
-                              </figure>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="column mx-5">
-                        <div class="card bloco02">
-                            <div class="card-image">
-                              <figure class="image is-2by1">
-                                <img src="images\img_pbi.png" alt="Placeholder image">
-                                <a  class="button button-config" href="https://barbarardfonseca.github.io/under_construction.html">Python</a>
-                              </figure>
-                            </div>
-                          </div>
-                    </div>
-                </div>  
-            </div>
-        </div>
-        <!--end Outras Ferramentas de BI-->
+			<!--end grid imagens-->
+		</div>
+	</div>
+	<!--end container titulo e fundo cinza-->
 
-  </body>
-    <footer id = "social_media" class="footer background">
-        <div class="content ml-6">
-            <div class="columns is-desktop">
-                <div class="column">
-                    <h3 class = "has-text-white">Redes Sociais </h3>
-                    <br>
-                    <a href = "https://www.linkedin.com/in/b%C3%A1rbara-rohr-decoth%C3%A9-fonseca-272b00128/" target="_blank"> <img src="icon/lin(2).png" alt="icon"/></a>
-                    <a href = "https://github.com/barbarardfonseca" target = "_blank"><img src="icon/github.png" alt="icon"/></a>
-                </div>
-        </div>
-    </footer>
+	<!--Outras Ferramentas de BI-->
+	<div id="bi_tools" class="container is-fluid my-6">
+		<div class="notification is-white">
+			<h1 class="title has-text-centered">Ferramentas de BI</h1>
+			<h2 class="subtitle has-text-centered">Relatórios feitos em outras ferramentas de Business Intelligence</h2>
+			<div id="bicards" class="columns is-desktop">
+			</div>
+		</div>
+	</div>
+	<!--end Outras Ferramentas de BI-->
+
+</body>
+<footer id="social_media" class="footer background">
+	<div class="content ml-6">
+		<div class="columns is-desktop">
+			<div class="column">
+				<h3 class="has-text-white">Redes Sociais </h3>
+				<br>
+				<a href="https://www.linkedin.com/in/b%C3%A1rbara-rohr-decoth%C3%A9-fonseca-272b00128/" target="_blank">
+					<img src="icon/lin(2).png" alt="icon" /></a>
+				<a href="https://github.com/barbarardfonseca" target="_blank"><img src="icon/github.png" alt="icon" /></a>
+			</div>
+		</div>
+</footer>
+
 </html>

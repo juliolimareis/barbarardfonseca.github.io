@@ -1,4 +1,4 @@
-/*#bloco01, #bloco02, #bloco03{
+.button-dash/*#bloco01, #bloco02, #bloco03{
     position:relative;
     /*width:300px;
     height:150px;
@@ -230,7 +230,8 @@ border-style: solid;
   background-color: #EBB922;
   border-width: 1px;
 border-style: solid;
-border-color:#cf9b00
+border-color:#cf9b00;
+transition: all .5s;
 }
 
 .button-dash:hover{
@@ -259,4 +260,32 @@ border-color:#cf9b00
   transform:translate(-50%,-50%);
   color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0);
+}
+
+.p-card{
+  border: 1px solid rgb(183, 175, 175);
+  border-radius: 5%;
+  padding: 8px;
+  width: 180px;
+  height: 250px;
+  transition: all .5s;
+  margin: auto;
+}
+
+.p-card:hover{
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.p-card > img {
+  width: 45px;
+  height: auto;
+}
+
+.p-card > p {
+  justify-content: start;
+}
+
+.p-card > .is-size-5 {
+  font-size: 1rem;
+  font-weight: 500;
 }
