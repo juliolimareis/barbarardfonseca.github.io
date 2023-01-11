@@ -19,12 +19,12 @@ addComponent("cards-skills", [
   CardSkill({
     title: "Linguagem M",
     desc: "Descrição M",
-    imageSrc: "icon/M.png"
+    imageSrc: "icon/m.png"
   }),
   CardSkill({
     title: "Visualização de Dados",
     desc: "Descrição DataViz",
-    imageSrc: "icon/DataViz.png"
+    imageSrc: "icon/dataviz.png"
   }),
   CardSkill({
     title: "Inteligência de Negócios",
