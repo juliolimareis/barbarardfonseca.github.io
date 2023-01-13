@@ -6,7 +6,7 @@ function insertComponent(
     component: { 
       className = "",
       textComponent = "", 
-      style,
+      style = {},
       attr = {},
       children = ""
     } 
