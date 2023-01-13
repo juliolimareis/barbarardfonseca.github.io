@@ -61,6 +61,7 @@ function insertComponent(
           });
 
           componentChildren.forEach(compChildren => {
+
             insertComponent({ 
               targetElement: childrenScope[0],
               component: compChildren
